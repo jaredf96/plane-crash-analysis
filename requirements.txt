@@ -1,0 +1,8 @@
+# Minimum versions, not the exact ones the notebook was executed with.
+# The only hard floor is scikit-learn 1.2, which added n_init="auto".
+jupyterlab>=3.4
+matplotlib>=3.5
+numpy>=1.22
+pandas>=1.4
+scikit-learn>=1.2
+seaborn>=0.11

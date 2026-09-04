@@ -1,0 +1,9 @@
+# The source dataset is not redistributed here; see the README.
+*.csv
+
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
