@@ -22,6 +22,12 @@ accidents worldwide. It is not redistributed here. Download it from
 next to the notebook as `Airplane_Crashes_and_Fatalities_Since_1908.csv`, which is the path
 section 1 reads. `.gitignore` excludes `*.csv` so a local copy is never committed.
 
+Kaggle also hosts a [newer compilation](https://www.kaggle.com/datasets/cgurkan/airplane-crash-data-since-1908)
+of the same record that runs through 2019. Every number in this README comes from the 1908
+to 2009 version above, so pointing the notebook at the newer file will not reproduce them:
+different row count, different vocabulary, different cluster boundaries. Re-running on it
+would be an extension of this analysis, not a correction to it.
+
 Cleaning happens in one cell:
 
 - `Year` is parsed out of inconsistent `Date` strings, and `Country` from the last
